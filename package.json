@@ -1,0 +1,44 @@
+{
+  "name": "native-date-adapter",
+  "version": "1.0.0",
+  "description": "Extends Date constructor for typescript",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abolfathi-al/native-date-adapter.git"
+  },
+  "keywords": [
+    "Date",
+    "Iranian",
+    "Farsi",
+    "Date adapter",
+    "Native date adapter",
+    "Jalali",
+    "Persian",
+    "Khayyami",
+    "Khorshidi",
+    "Shamsi"
+  ],
+  "author": "alireza abolfathi <abolfathi.al@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abolfathi-al/native-date-adapter/issues"
+  },
+  "homepage": "https://github.com/abolfathi-al/native-date-adapter#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
