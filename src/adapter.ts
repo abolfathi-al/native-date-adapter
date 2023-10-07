@@ -4,6 +4,7 @@ import { IranianDateAdapter } from './iranian-adapter';
 
 export const mapDateAdapter = new Map<string, NativeDateAdapterModel>([
   ['fa-IR', new IranianDateAdapter()],
+  ['fa', new IranianDateAdapter()],
 ]);
 
 export class NativeDateAdapter extends Date {
