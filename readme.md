@@ -32,7 +32,10 @@ const NativeDateAdapter = require('native-date-adapter')
 For initializing `NativeDateAdapter` after setting the locale, you can pass parameters of Native date adapter (it's just like native Date) or Other objects like `Date` , `NativeDateAdapter`, `ISOString`, `Milliseconds` as parameters.
 
 ```js
+// global scope
 const dateHandler = NativeDateAdapter.setLocale('fa-IR');
+// or local scope
+const dateHandler = nativeDateAdapter('fa');
 
 new dateHandler()
 new dateHandler(milliseconds)

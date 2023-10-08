@@ -1,7 +1,7 @@
-import { NativeDateAdapter } from '../src';
+import { nativeDateAdapter } from '../src';
 
 describe('Native date adapter', () => {
-  const dateHandler = NativeDateAdapter.setLocale('fa-IR');
+  const dateHandler = nativeDateAdapter('fa');
 
   test('should support date object as argument', () => {
     const gregorianDate = new Date(1992, 8, 27)
